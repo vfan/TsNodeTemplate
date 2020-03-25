@@ -1,0 +1,35 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc -w & node dist/koa.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": {
+    "eslintIntegration": true,
+    "stylelintIntegration": true,
+    "semi": true,
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/koa": "^2.11.2",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "koa": "^2.11.0"
+  }
+}
